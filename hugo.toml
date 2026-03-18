@@ -1,4 +1,4 @@
-baseURL = "https://fractal-programming.github.io/fractal-blog/"
+baseURL = "https://fractal-programming.github.io/blog/"
 locale = 'en-us'
 title = "Fractal Programming"
 theme = "ananke"
