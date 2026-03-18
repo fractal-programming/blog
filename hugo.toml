@@ -1,0 +1,4 @@
+baseURL = "https://fractal-programming.github.io/fractal-blog/"
+locale = 'en-us'
+title = "Fractal Programming"
+theme = "ananke"
