@@ -9,4 +9,5 @@ theme = "ananke"
 site_logo = "images/logo.png"
 body_classes = "avenir"
 text_color = "near-white"
+description = "Code reflecting natural patterns 🌳"
 
