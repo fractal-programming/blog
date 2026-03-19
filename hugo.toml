@@ -2,7 +2,6 @@
 baseURL = "https://fractal-programming.github.io/blog/"
 locale = 'en-us'
 title = "Fractal Programming"
-#theme = "beautifulhugo"
 theme = "ananke"
 
 [params]
