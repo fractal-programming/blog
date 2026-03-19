@@ -7,5 +7,6 @@ theme = "ananke"
 
 [params]
 site_logo = "images/logo.png"
-featured_image = "images/trees-main.jpeg"
-#background_color_class = "#ff00ff"
+body_classes = "avenir"
+text_color = "near-white"
+
