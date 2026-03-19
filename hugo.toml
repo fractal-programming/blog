@@ -1,7 +1,8 @@
 baseURL = "https://fractal-programming.github.io/blog/"
 locale = 'en-us'
 title = "Fractal Programming"
-theme = "ananke"
+theme = "beautifulhugo"
+#theme = "ananke"
 
 [params]
 headerImage = "/images/trees-main.jpeg"
