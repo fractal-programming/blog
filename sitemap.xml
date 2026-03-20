@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://fractal-programming.github.io/blog/posts/first-entry/</loc>
-    <lastmod>2026-03-18T23:02:35+01:00</lastmod>
-  </url><url>
     <loc>https://fractal-programming.github.io/blog/</loc>
     <lastmod>2026-03-18T23:02:35+01:00</lastmod>
   </url><url>
     <loc>https://fractal-programming.github.io/blog/posts/</loc>
+    <lastmod>2026-03-18T23:02:35+01:00</lastmod>
+  </url><url>
+    <loc>https://fractal-programming.github.io/blog/posts/welcome/</loc>
     <lastmod>2026-03-18T23:02:35+01:00</lastmod>
   </url><url>
     <loc>https://fractal-programming.github.io/blog/categories/</loc>

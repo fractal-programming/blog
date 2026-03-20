@@ -9,11 +9,11 @@
     <lastBuildDate>Wed, 18 Mar 2026 23:02:35 +0100</lastBuildDate>
     <atom:link href="https://fractal-programming.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First Entry</title>
-      <link>https://fractal-programming.github.io/blog/posts/first-entry/</link>
+      <title>Welcome!</title>
+      <link>https://fractal-programming.github.io/blog/posts/welcome/</link>
       <pubDate>Wed, 18 Mar 2026 23:02:35 +0100</pubDate>
-      <guid>https://fractal-programming.github.io/blog/posts/first-entry/</guid>
-      <description>&lt;h1 id=&#34;welcome&#34;&gt;Welcome!&lt;/h1&gt;&#xA;&lt;p&gt;This is our first blog post&lt;/p&gt;</description>
+      <guid>https://fractal-programming.github.io/blog/posts/welcome/</guid>
+      <description>&lt;p&gt;This is our first blog post&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
