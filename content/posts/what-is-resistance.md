@@ -25,6 +25,28 @@ $$
 
 ## Markov
 
+```plantuml
+@startuml
+
+' skinparam linetype ortho
+
+database "Unmoved" as sUn
+database "Moved" as sMo
+
+frame "Moving()" as pMove {
+  database "In motion" as sIn
+}
+
+sUn -> sIn : Attempt
+sUn <. sIn : Failed
+sIn .> sMo : Done
+sMo -> sMo
+
+footer **Definition** Resistance\n(C) DSP-Crowd Electronics GmbH
+
+@enduml
+```
+
 $$
 \hat{x}_s = \lim_{n \rightarrow \infty} A^n\hat{x}_0
 $$
