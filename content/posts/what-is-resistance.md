@@ -36,7 +36,11 @@ footer **Definition** Resistance\n(C) DSP-Crowd Electronics GmbH
 ## Markov
 
 $$
-\hat{x}_s = \lim_{n \rightarrow \infty} A^n\hat{x}_0
+\hat{x}_{k+1} = A \cdot \hat{x}_k
+$$
+
+$$
+\hat{x}_s = \lim_{n \rightarrow \infty} A^n \cdot \hat{x}_0
 $$
 
 ## Examples
