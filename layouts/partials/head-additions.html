@@ -1,0 +1,7 @@
+{{ $math := .Site.Params.math }}
+{{ if isset .Params "math" }}
+  {{ $math = .Params.math }}
+{{ end }}
+{{ if $math }}
+  {{ partials.Include "katex.html" . }}
+{{ end }}

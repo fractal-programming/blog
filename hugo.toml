@@ -10,4 +10,11 @@ body_classes = "avenir"
 text_color = "near-white"
 description = "Code reflecting natural patterns 🌳"
 images = ["/blog/images/trees-main.webp"]
+math = true
+
+[markup.goldmark.extensions.passthrough]
+  enable = true
+  [markup.goldmark.extensions.passthrough.delimiters]
+    block = [["$$", "$$"]]
+    inline = [["$", "$"]]
 
