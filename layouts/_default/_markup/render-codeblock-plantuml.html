@@ -1,0 +1,7 @@
+{{- $server := .Page.Site.Params.plantuml_server -}}
+{{- $hex := printf "%x" .Inner -}}
+<p align="center">
+  <kbd>
+    <img src="{{ $server }}/svg/~h{{ $hex }}" alt="PlantUML Diagram" style="width: 800px; max-width:100%">
+  </kbd>
+</p>
