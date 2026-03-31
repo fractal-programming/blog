@@ -10,6 +10,7 @@ body_classes = "avenir"
 text_color = "near-white"
 description = "Code reflecting natural patterns 🌳"
 images = ["/blog/images/trees-main.webp"]
+author = "Naegolus"
 math = true
 plantuml_server = "http://188.64.56.21:8097"
 
