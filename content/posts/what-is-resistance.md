@@ -28,3 +28,9 @@ $$
 \hat{x}_s = \lim_{n \rightarrow \infty} A^n\hat{x}_0
 $$
 
+<!--
+Literature
+- https://de.wikipedia.org/wiki/Elektrischer_Widerstand
+- https://de.wikipedia.org/wiki/Magnetischer_Widerstand
+-->
+
