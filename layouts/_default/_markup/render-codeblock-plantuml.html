@@ -1,7 +1,13 @@
-{{- $server := .Page.Site.Params.plantuml_server -}}
-{{- $hex := printf "%x" .Inner -}}
-<p align="center">
-  <kbd>
+{{- $uml := true -}}
+{{- if isset .Page.Params "uml" -}}
+  {{- $uml = .Page.Params.uml -}}
+{{- end -}}
+{{- if $uml -}}
+  {{- $server := .Page.Site.Params.plantuml_server -}}
+  {{- $hex := printf "%x" .Inner -}}
+  <p align="center">
     <img src="{{ $server }}/svg/~h{{ $hex }}" alt="PlantUML Diagram" style="width: 800px; max-width:100%">
-  </kbd>
-</p>
+  </p>
+{{- else -}}
+  <pre><code>{{ .Inner | htmlEscape }}</code></pre>
+{{- end -}}
