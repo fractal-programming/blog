@@ -11,7 +11,7 @@ text_color = "near-white"
 description = "Code reflecting natural patterns 🌳"
 images = ["/blog/images/trees-main.webp"]
 math = true
-plantuml_server = "http://10.0.0.200:8097"
+plantuml_server = "http://188.64.56.21:8097"
 
 [markup.goldmark.extensions.passthrough]
   enable = true
