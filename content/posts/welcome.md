@@ -5,6 +5,8 @@ title = 'Welcome!'
 
 This is our first blog post
 
+<!--more-->
+
 ```plantuml
 @startuml
 
