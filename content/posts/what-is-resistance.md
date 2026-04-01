@@ -11,6 +11,30 @@ Einleitung. Das ist ein Text. Einleitung. Das ist ein Text. Einleitung. Das ist 
 
 ## Model
 
+```
+@startuml
+
+' skinparam linetype ortho
+
+database "Unmoved" as sUn
+database "Moved" as sMo
+
+frame "Moving()" as pMove {
+  database "In motion" as sIn
+}
+
+sUn -> sIn : Attempt
+sUn <. sIn : Failed
+sIn .> sMo : Done
+sMo -> sMo
+
+footer **Definition** Resistance\n(C) DSP-Crowd Electronics GmbH
+
+@enduml
+```
+
+Wird zu:
+
 ```plantuml
 @startuml
 
