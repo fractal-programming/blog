@@ -60,6 +60,10 @@ footer **Definition** Resistance\n(C) DSP-Crowd Electronics GmbH
 ## Markov
 
 $$
+P(A, B) = P(A|B) \cdot P(B)
+$$
+
+$$
 \hat{x}_{k+1} = A \cdot \hat{x}_k
 $$
 
